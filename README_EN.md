@@ -1,13 +1,27 @@
 <div align="center">
 
-```text
- ███████╗██╗   ██╗███████╗██╗   ██╗ ██████╗ ██╗   ██╗
- ██╔════╝╚██╗ ██╔╝╚══███╔╝╚██╗ ██╔╝██╔════╝ ╚██╗ ██╔╝
- ███████╗ ╚████╔╝   ███╔╝  ╚████╔╝ ██║  ███╗ ╚████╔╝
- ╚════██║  ╚██╔╝   ███╔╝    ╚██╔╝  ██║   ██║  ╚██╔╝ 
- ███████║   ██║   ███████╗   ██║   ╚██████╔╝   ██║  
- ╚══════╝   ╚═╝   ╚══════╝   ╚═╝    ╚═════╝    ╚═╝  
-```
+<pre>
+<font color="#FF8C00">
+                                   .              .             ●          
+       .               *        .            .       .              .           
+                 .               *         ●               .         .              .              .           
+       ●              *              .          .              ●             .              *              *              .               .
+                                                          
+
+    ███████╗██╗   ██╗███████╗██╗   ██╗ ██████╗ ██╗   ██╗ 
+    ██╔════╝╚██╗ ██╔╝╚══███╔╝╚██╗ ██╔╝██╔════╝ ╚██╗ ██╔╝ 
+    ███████╗ ╚████╔╝   ███╔╝  ╚████╔╝ ██║  ███╗ ╚████╔╝  
+    ╚════██║  ╚██╔╝   ███╔╝    ╚██╔╝  ██║   ██║  ╚██╔╝   
+    ███████║   ██║   ███████╗   ██║   ╚██████╔╝   ██║    
+    ╚══════╝   ╚═╝   ╚══════╝   ╚═╝    ╚═════╝    ╚═╝    
+
+               .              .              .           1.0.0
+       .          ●             .               *              .       ●          
+                 .               *        .         .               .              .              .           
+       ●               *        .               ●              .              .              *         *  
+</font>
+</pre>
+
 
 [![简体中文](https://img.shields.io/badge/🇨🇳-简体中文-red)](./README.md) [![English](https://img.shields.io/badge/🇺🇸-English-blue)](./README_EN.md) [![日本語](https://img.shields.io/badge/🇯🇵-日本語-lightgrey)](./README_JP.md)
 
@@ -20,7 +34,7 @@
 
 ## 📖 Introduction
 
-In modern web pages, dynamic layouts are becoming increasingly complex, making traditional "Save As" or "Copy-Paste" methods for extracting resources very cumbersome. **Syzygy (Super_Dropzone)** was created to solve this.
+In modern web pages, dynamic layouts are becoming increasingly complex, making traditional "Save As" or "Copy-Paste" methods for extracting resources very cumbersome. **Syzygy** was created to solve this.
 
 Its core positioning is a highly smooth **"drag-and-drop web resource collection tool"**. The underlying architecture is injected with runtime self-adaptation and stability guardian logic, ensuring stable operation in various complex front-end web environments. With simple "drag and drop" actions, you can achieve WYSIWYG resource capture.
 
