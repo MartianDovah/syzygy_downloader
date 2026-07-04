@@ -32,43 +32,43 @@ Syzygy completely abandons traditional list stacking, adding a planetary compani
 * **Smooth Gravity Transition**: During drag and flick gestures, it uses EMA speed judgment and a first-order low-pass filter to simulate smooth physical attraction and centrifugal effects.
 * **Collision & Elastic Boundaries**: Adaptive collision avoidance and elastic soft buffering at the viewport edges ensure multiple tasks do not overlap or overflow.
 
-![](https://pic1.imgdb.cn/item/6a436160514f59159c639145.gif)
+![](assets/操作演示.gif)
 
 ### 🎬 2. Deep Web Video Capture
 Whether it's a standard video or a complex video sliced by special processing, simply hold `Shift` and drag. The backend automatically performs traffic analysis, accurately restoring and extracting the real download address.
 
-![](https://pic1.imgdb.cn/item/6a4362d7514f59159c639274.gif)
+![](assets/视频下载.gif)
 
 ### 🖼️ 3. Multi-Format High-Res Image & Background Extraction
 Supports high-resolution original image extraction, penetrating complex page hierarchies to extract image resources hidden in CSS pseudo-elements or background attributes.
 
-![](https://pic1.imgdb.cn/item/6a436196514f59159c639180.gif)
-![](https://pic1.imgdb.cn/item/6a436160514f59159c639146.gif)
+![](assets/图片下载.gif)
+![](assets/GIF捕获.gif)
 
 ### 📊 4. Structured Table & Text Extraction
 Drag tables or text on web pages to automatically extract structured data or high-value text information. Drag and go, saving you from tedious copying.
 
-![](https://pic1.imgdb.cn/item/6a436199514f59159c639182.gif)
+![](assets/表格捕获.gif)
 
 ### 📚 5. Web Comic & Long Image Extraction (Gesture Switch)
 For Canvas or multi-nested special reading sites, just **flick (shake) your mouse rapidly left and right** in the air to trigger the gesture algorithm, cycling through candidate resource objects for precise locking.
 
-![](https://pic1.imgdb.cn/item/6a43615f514f59159c639144.gif)
+![](assets/网页漫画捕获.gif)
 
 ### 💻 6. Pure Source Code Capture
 One-click capture and format the pure source code of the current page or specific iframe, directly analyzing the structure and bidding farewell to cumbersome developer tools.
 
-![](https://pic1.imgdb.cn/item/6a436159514f59159c63913e.gif)
+![](assets/网页源码.gif)
 
 ### 🛡️ 7. Ad & Tracking Script Blocking
 Automatically applies multiple filtering rules to web requests, intercepting pre-roll ads and tracking scripts to ensure the purity of captured media sources.
 
-![](https://pic1.imgdb.cn/item/6a43615c514f59159c639142.gif)
+![](assets/广告屏蔽.gif)
 
 ### 💾 8. One-Click Rapid Local Download
 Directly calls the browser's native download interface. After capturing, just click the satellite node to securely save the resource to your local disk.
 
-![](https://pic1.imgdb.cn/item/6a43615b514f59159c639141.gif)
+![](assets/下载演示.gif)
 
 ## 🔒 Statements & Technical Protection
 
@@ -94,5 +94,5 @@ I very much hope to maintain this project long-term, building it into the handie
 
 If Syzygy has helped you and saved you valuable time, please consider buying me a coffee via **Afdian** or becoming a long-term sponsor! Your support is my greatest motivation to keep coding and updating 🚀
 
-<a href="https://afdian.com/a/syzygy_downloader" target="_blank"><img src="https://afdian.net/static/img/logo/logo.png" height="30"></a>
-*(Click to visit my Afdian page)*
+<a href="https://afdian.com/a/syzygy_downloader" target="_blank"><img src="assets/afdian_logo.png" height="30"></a>
+*👈Click to visit my Afdian page*
