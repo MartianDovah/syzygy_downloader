@@ -28,6 +28,10 @@
 **A Highly Smooth, Drag-and-Drop Web Resource Collection Browser Extension**
 
 ![version](https://img.shields.io/badge/version-v1.0.0-blue)
+
+---
+
+Available on: [![XHS](https://img.shields.io/badge/XHS-Xiaohongshu-ff2442)](https://xhslink.com/m/6hngqAykU24) [![QQ Group 1](https://img.shields.io/badge/QQ-Group%201-0084ff)](https://qm.qq.com/q/UiJVC3TZ2o) [![QQ Group 2](https://img.shields.io/badge/QQ-Group%202-0084ff)](https://qm.qq.com/q/6YW5SHcf04) [![WeChat](https://img.shields.io/badge/WeChat-yuhao__xiaban-07c160)](#) [![Official Account](https://img.shields.io/badge/Official%20Account-QR%20Code-07c160)](./assets/公众号二维码.jpg) [![UniFans](https://img.shields.io/badge/UniFans-Patron-946ce6)](https://app.unifans.io/c/y837668142)
 </div>
 
 ---
@@ -84,6 +88,37 @@ Directly calls the browser's native download interface. After capturing, just cl
 
 ![](assets/下载演示.gif)
 
+## 🔧 Installation & Configuration
+
+1. **Download the Release Packages**:
+   The project release consists of two components. Please download both:
+   - **`Syzygy_Extension.zip`** (Browser Extension)
+   - **`Syzygy_Server.exe`** (Backend Server)
+
+2. **Install the Browser Extension**:
+   - Extract **`Syzygy_Extension.zip`** and place the extracted folder in a safe location where it won't be accidentally deleted.
+   - Open your browser and navigate to the extension management page (e.g., `chrome://extensions/` for Chrome).
+   - Enable **"Developer mode"** in the top-right corner.
+   - Click **"Load unpacked"** and select the extracted extension folder to install it.
+
+3. **Configure the Server & Connection**:
+   - Run **`Syzygy_Server.exe`**. Read and agree to the user agreement. By default, it will enter **Trial Mode**.
+   - In the main menu of the server terminal, locate and copy the **`AccessToken`**.
+   - Go back to the browser, right-click the Syzygy extension icon, and select **"Options"**.
+   - Paste the copied `AccessToken` into the **"Access Token (内网通行证)"** field.
+   - Verify that the **"Server URL (后端基站通信地址)"** IP and port in the options page match the server terminal display.
+   - Click **"Save"** to apply the configuration.
+   - Go back to the server terminal, enter `1` and press Enter to start the service.
+   - Return to your browser. If the **"Server Connection Status Light"** turns **green**, the connection is successful, and you are ready to capture and download resources!
+
+## 🎮 Operations & Shortcuts
+
+- **Element Capture**: Hold `Shift` and drag a webpage element with your mouse to capture it.
+- **Resource Download**: Drag the captured elements into the Dropzone floating window to trigger the download.
+- **Switch Candidate Objects**: When multiple elements are captured, **shake/flick your mouse rapidly left and right** to cycle through the candidate resource objects.
+- **Clear Cache**: Press `Shift + Alt + X` to clear cache and records for the current website.
+- **Debug Capture Mode**: Press `Ctrl + Shift + D` to open the capture debug panel to verify the number of captured elements.
+
 ## 🔒 Statements & Technical Protection
 
 **1. No Cracking or Privilege Escalation**
@@ -104,9 +139,14 @@ As the project delves into deeper technical waters, funding and resources are fa
 
 I very much hope to maintain this project long-term, building it into the handiest tool in every geek's browser. Thank you all for your continuous patience and support!
 
+## 📬 Feedback & Support
+
+If you encounter any issues during installation, configuration, or usage, or if you have suggestions, please feel free to reach out:
+- **Email**: [martianc.feedback@gmail.com](mailto:martianc.feedback@gmail.com)
+- Alternatively, you can open an [Issue](https://github.com/MartianDovah/syzygy_downloader/issues) on our GitHub repository.
+
 ## ❤️ Sponsor & Support
 
-If Syzygy has helped you and saved you valuable time, please consider buying me a coffee via **Afdian** or becoming a long-term sponsor! Your support is my greatest motivation to keep coding and updating 🚀
+If Syzygy has helped you and saved you valuable time, please consider buying me a coffee via **UniFans** or becoming a long-term sponsor! Your support is my greatest motivation to keep coding and updating 🚀
 
-<a href="https://afdian.com/a/syzygy_downloader" target="_blank"><img src="assets/afdian_logo.png" height="30"></a>
-*👈Click to visit my Afdian page*
+<a href="https://app.unifans.io/c/y837668142" target="_blank"><img src="assets/YLQlogo.svg" height="30"></a> *👈 [Click here to visit my UniFans page](https://app.unifans.io/c/y837668142)*
